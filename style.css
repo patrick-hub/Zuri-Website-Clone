@@ -1,0 +1,193 @@
+@font-face {
+    font-family: Averta;
+    src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Averta;
+  color: #6C6565;
+  text-decoration: none;
+}
+
+.section1 {
+  background:url("./img/hero-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 70px;
+ 
+  
+}
+
+.hero {
+  margin-top: 40px;
+ 
+}
+
+.hero p {
+  margin-top: 40px;
+}
+
+button {
+  height: 40px;
+  margin-left: 30px;
+  font-weight: bold;
+  border: none;
+
+}
+
+.button_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 50px;
+
+  
+  
+}
+
+.red_button {
+  background: #e7332b;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px;
+
+}
+
+.red_button:hover {
+  background: #ffffff;
+  color: #e7332b;
+  border: 1px solid  #e7332b;
+  cursor: pointer;
+}
+
+.white_button {
+  background: #ffffff;
+  color: #e7332b;
+  font-size: 15px;
+  padding: 10px;
+  border: 1px solid  #e7332b;
+}
+
+.white_button:hover {
+  background: #e7332b;
+  color: #ffffff;
+  border: 1px solid  #e7332b;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #e7332b;
+}
+
+.padding {
+  padding: 50px;
+}
+
+.section2 {
+  margin: 0 140px;
+  margin-top: 100px;
+}
+
+.header_motto {
+  text-align: center;
+  padding: 20px;
+}
+
+.header {
+color: #E7336F;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.motto {
+  font-size: 25px;
+  color: #514949;
+  line-height: 40px;
+}
+
+.pokadot_1, .pokadot_2 {
+  width: 25vw;
+  z-index: -1;
+  position: absolute;
+  top: 870px;
+  bottom: 0;
+ 
+}
+
+.pokadot_1 {
+   left: 0;
+}
+
+.pokadot_2 {
+   right: 0;
+}
+
+.container2 {
+  display: block;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+
+.card {
+   background-color: #fffafa;
+  padding: 40px;
+  width: 300px;
+}
+
+.card a {
+  font-weight: 300;
+}
+
+.card_end_space {
+  padding-top: 50px;
+}
+
+.footer-1 {
+  margin-top: 20px;
+}
+.my-footer {
+  margin-top: 200px;
+  padding: 10px;
+  font-size: 14px;
+  display: block;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+
+.footer-flex-container {
+  display: flex;
+  justify-content: space-between; 
+  margin-bottom: 100px;
+  
+}
+
+.icons {
+  width: 20px;
+  
+}
+
+h3 {
+  color: #514949;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 80px;
+}

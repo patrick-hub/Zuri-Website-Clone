@@ -10,7 +10,7 @@ html, body {
   color: #6C6565;
   text-decoration: none;
   box-sizing: border-box;
-  /* overflow-x: hidden; */
+ 
  
 }
 
@@ -30,6 +30,8 @@ html, body {
   margin-top: 40px;
  
 }
+
+
 
 .hero p {
   margin-top: 40px;
@@ -132,26 +134,35 @@ color: #E7336F;
 .container2 {
   display: block;
   margin: 0 auto;
-  width: 100%;
+  width: 100vw;
+
+  padding: 3% ;
 }
 
 .row {
   display: flex;
   justify-content: space-between;
+  width: 100vw;
+  width: 94%;
   
   
 }
 
 .card {
    background-color: #fffafa;
-  padding: 40px;
-  width: 20vw;
+   box-sizing: border-box;
+   padding: 40px;
+  width: 100%;
 }
 
 .card a {
   font-weight: 300;
 }
 
+.card_container { 
+  max-width:30%;
+  box-sizing: border-box;
+}
 .card_end_space {
   padding-top: 50px;
 }
@@ -166,6 +177,8 @@ color: #E7336F;
   display: block;
   margin: 0 auto;
   width: 100vw;
+  box-sizing: border-box;
+  padding: 4%;
 }
 
 
@@ -224,6 +237,7 @@ h3 {
   .container2 {
     display: flex;
     flex-direction: column;
+
    
   }
  
